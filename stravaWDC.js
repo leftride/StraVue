@@ -137,7 +137,7 @@
 			dataType: tableau.dataTypeEnum.bool
 			},{
 			id: "gear_name",
-			alias: "gear_name",
+			alias: "Gear Name",
 			dataType: tableau.dataTypeEnum.string
 			}];
 
