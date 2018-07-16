@@ -135,7 +135,10 @@
 			id: "has_kudoed",
 			alias: "Kudoed",
 			dataType: tableau.dataTypeEnum.bool
-
+			},{
+			id: "gear_name",
+			alias: "gear_name",
+			dataType: tableau.dataTypeEnum.string
 			}];
 
         var tableSchema = {
@@ -221,6 +224,7 @@
 								"average_speed": results[i].average_speed,
 								"max_speed": results[i].max_speed,
 								"has_kudoed": results[i].has_kudoed,
+				    				"gear_name": results[i].gear.name
 							});
                         }
                         getNextActivityPage();
