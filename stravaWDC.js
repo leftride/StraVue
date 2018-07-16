@@ -101,7 +101,7 @@
 			dataType: tableau.dataTypeEnum.string
 			},{
 			id: "trainer",
-			alias: "Trainer",
+			alias: "Trainery",
 			dataType: tableau.dataTypeEnum.bool
 			},{
 			id: "commute",
