@@ -224,7 +224,7 @@
 								"average_speed": results[i].average_speed,
 								"max_speed": results[i].max_speed,
 								"has_kudoed": results[i].has_kudoed,
-				    				"gear_name": results[i].gear.name
+				    				"gear_name": results[i].gear.name,
 							});
                         }
                         getNextActivityPage();
